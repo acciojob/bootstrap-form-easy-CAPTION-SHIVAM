@@ -19,7 +19,12 @@
     <style>
       .cont {
         margin: 30px;
-        border: solid 2px rgb(18, 236, 101);
+        padding: 50px;
+        border: solid 2px rgb(127, 129, 128);
+      }
+      div{
+        margin-top: 25px;
+        background-color: aliceblue;
       }
     </style>
     <title>Hello, world!</title>
@@ -51,7 +56,7 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">Collage</label>
-            <input type="text" class="form-control" id="college-input" />
+            <input type="text" class="form-control" id="college-input" placeholder="College Name" />
           </div>
           <div class="form-group col-md-4">
             <label for="inputState">Graduation Year</label>
@@ -65,7 +70,7 @@
           </div>
           <div class="form-group col-md-2">
             <label for="number">Roll Number</label>
-            <input type="number" class="form-control" id="roll-no-input" />
+            <input type="number" class="form-control" id="roll-no-input" placeholder="Roll Number" />
           </div>
         </div>
         <div class="form-group">
@@ -116,7 +121,7 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="validationServer03">Collage</label>
-            <input type="text"id="validationServer03"id="college-input" class="form-control is-invalid"  required />
+            <input type="text"id="validationServer03"id="college-input" class="form-control is-invalid"placeholder="College Name"  required />
             <div class="invalid-feedback">Please provide a valid college!</div>
           </div>
           <div class="form-group col-md-4">
@@ -133,7 +138,7 @@
           </div>
           <div class="form-group col-md-2">
             <label for="validationServer03">Roll Number</label>
-            <input type="number" class="form-control is-invalid" id="roll-no-input" required />
+            <input type="number" class="form-control is-invalid" id="roll-no-input"placeholder="Roll Number" required />
             <div class="invalid-feedback">Please provide a valid Roll no!</div>
 
           </div>
